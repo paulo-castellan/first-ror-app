@@ -1,0 +1,69 @@
+pt-br:
+
+  layouts:
+    application:
+      title:          "A Biblioteca Pragmática"
+      home:           "Início"
+      questions:      "Perguntas"
+      news:             "Notícias"
+      contact:        "Contato"
+
+  store:
+    index:
+      title_html:      "Seu Catálogo Pragmático"
+      add_html:        "Adicionar ao Carrinho"
+
+  carts:
+    cart:
+      title:           "Carrinho de Compras"
+      empty:           "Esvaziar Carrinho"
+      checkout:        "Comprar"
+
+  number:
+    currency:
+      format:
+        unit:           "$US"
+        precision:      2
+        separator:      ","
+        delimiter:      "."
+        format:         "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend:           "Por favor, insira seus dados"
+    form:
+      name:             "Nome"
+      address_html:     "Endereço completo"
+      email:            "E-mail"
+      pay_type:         "Forma de pagamento"
+      pay_prompt_html:  "Selecione uma forma de pagamento"
+      submit:           "Realizar pedido"
+      pay_types:
+        check:          "Cheque"
+        credit_card:    "Cartão de Crédito"
+        purchase_order: "Ordem de compra"
+      check_pay_type:
+        routing_number: "Número de rota"
+        account_number: "Número da conta"
+      credit_card_pay_type:
+        cc_number:      "Número do Cartão"
+        expiration_date:  "Validade"
+      purchase_order_pay_type:
+        po_number:      "Número"
+
+  activerecord:
+    models:
+      order:            "pedido"
+    errors:
+      messages:
+        inclusion:      "Não está incluido na lista"
+        blank:          "Não pode ficar em branco"
+  errors:
+    template:
+      body:             "Existe problemas com os seguintes campos:"
+      header:
+        one:            "1 erro impediu que esse %{model} seja registrado"
+        other:          "%{count} erros impediram que esse %{model} seja registrado"
+
+  thanks: "Obrigado pelo seu pedido"
+  
